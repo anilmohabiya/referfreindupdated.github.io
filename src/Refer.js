@@ -1,5 +1,6 @@
 
 import React,{ useState } from 'react';
+import Footer from './Footer';
 import { Button, Modal } from 'react-bootstrap';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
@@ -72,6 +73,7 @@ import { Link } from 'react-router-dom/cjs/react-router-dom.min';
       </div>
       </div>
     </div>
+    <Footer/>
     </>
 
 
